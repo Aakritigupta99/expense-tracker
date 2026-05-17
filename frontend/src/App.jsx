@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "https://expense-tracker-g4i2.onrender.com";
 
 export default function App() {
   const [expenses, setExpenses] = useState([]);
